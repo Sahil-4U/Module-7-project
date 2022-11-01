@@ -1,0 +1,62 @@
+.Banner-container {
+    width: 1292px;
+    height: 622px;
+    left: calc(50% - 1292px/2 - 15px);
+    background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
+    border-radius: 20px;
+    margin: 30px 100px;
+    
+}
+.Banner-textbox{
+    padding-top: 150px;
+    padding-left: 130px;
+    position: absolute;
+}
+.Banner-summer h5{
+    font-size: 22px;
+    color:#2A7CC7;
+}
+.Banner-collection{
+    font-size: 22px;
+}
+.Banner-objects{
+    color:#737373;
+}
+.Banner-shop{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 160px;
+   height: 40px;
+    background: #23A6F0;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.Banner-whitebox{
+    position: relative;
+    left: 800px;
+    bottom: 10px;
+    background: white;
+    width: 500px;
+    height: 450px;
+    border-radius: 500px;
+}
+.Banner-smallwhitebox{
+    position: relative;
+    left: 650px;
+    bottom: 452px;
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 60px;
+}
+.Banner-img{
+    position: relative;
+    left: 700px;
+    bottom: 548px;
+    /* right: 120px; */
+    background-image: url('../Images/technology\ 1.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}

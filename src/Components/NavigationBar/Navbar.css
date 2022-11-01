@@ -1,0 +1,126 @@
+.container{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Navbar-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    height: 58px;
+    gap: 300px;
+}
+
+.Navbar-Badge h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.Navbar-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.links-home{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #737373;
+}
+.links-shop{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #252B42;
+
+}
+.Navbar-links-2{
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #252B42;
+    gap: 7px;
+   
+color: #737373;
+
+}
+.Navbar-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    
+}
+
+.Navbar-svg{
+    width: 12px;
+    height: 12px;
+    color:  #23A6F0;
+    margin: 4px;
+}
+.Navbar-svg svg{
+    margin-bottom: 5px;
+    
+}
+.Navbar-login h6{
+    color:  #23A6F0;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.Navbar-search{
+    margin-left: 20px;
+    width: 16px;
+    height: 16px;
+}
+.Navbar-search svg{
+    width: 16px;
+    height: 16px;
+    color:  #23A6F0;
+}
+.Navbar-cart{
+    margin-left: 20px;
+    width: 30px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+}
+.Navbar-cart-counter{
+    color: #23A6F0;
+}
+.Navbar-cart svg{
+    width: 15px;
+    height: 15px;
+    color:  #23A6F0;
+}
+.Navbar-heart{
+    margin-left: 20px;
+    width: 36px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+}
+.Navbar-heart-counter{
+    color: #23A6F0;
+}
+.Navbar-heart svg{
+    width: 16px;
+    height: 15px;
+    color:  #23A6F0;
+}

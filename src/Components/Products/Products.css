@@ -1,0 +1,102 @@
+.Products-container{
+    margin: 50px;
+    width: 100vw;
+}
+.Products-heading h2{
+    font-family:'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+/* .Products-carts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100vw;
+    
+} */
+.Products-fetching{
+    display: flex;
+    overflow-y: scroll;
+}
+.Products-fetching::-webkit-scrollbar {
+    display: none;
+}
+.Products-cart{
+    margin: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    max-width: 360px;
+    height: 500px;
+}
+.Product-img img{
+    width: 360px;
+    height: 300px;
+}
+.Product-textfield{
+    text-align: center;
+    
+}
+.Product-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+.Product-spec{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 15px;
+}
+.Product-start-1{
+    display: flex;
+}
+.Product-start{
+    background-image: url('../Images/Star\ 4.png');
+    height: 18px;
+    width: 16px;
+    margin: 0px;
+}
+
+.Product-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Product-oldPrice{
+    font-size: 18px;
+    font-weight: 600px;
+    color: #323232;
+    text-decoration: line-through;
+}
+.oldPrice-bar{
+    font-size: 18px;
+}
+.Product-newPrice{
+    margin-left: 12px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+}
+.Product-button button{
+    text-align: center;
+    color: white;
+    background:  #23A6F0;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family:'Montserrat';
+    letter-spacing: 0.1px;
+    line-height: 32px;
+    border: none;
+    outline: none;
+}
